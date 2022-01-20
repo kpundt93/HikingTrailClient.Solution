@@ -1,0 +1,24 @@
+@using HikingTrailClient.Models;
+
+<h1>Trail Info:</h1>
+<ul>
+    <li>ID: @Model.TrailId</li>
+    <li>Name: @Model.Name</li>
+    <li>Length: @Model.Length miles</li>
+    <li>Configuration: @Model.Configuration</li>
+    <li>Elevation Gain: @Model.ElevationGain ft.</li>
+    <li>Difficulty Level: @Model.Difficulty</li>
+    <li>Family Friendly: @Model.FamilyFriendly</li>
+    <li>Distance from Portland: @Model.DistanceFromPdx miles</li>
+    <li>Latitude: @Model.Latitude</li>
+    <li>Longitude: @Model.Longitude</li>
+    <li>Season: @Model.Season</li>
+</ul>
+<br>
+
+<a href="/Trails/Edit/@(Model.TrailId)"><p>Edit</p></a>
+<br>
+
+<a href="/Trails"><p>Return</p></a>
+
+<a href="/Trails/Delete/@(Model.TrailId)"><p>DELETE TRAIL</p></a>

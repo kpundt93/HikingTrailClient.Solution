@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ftaD6lJaA3kr2IZGeTaDa9ZcI0xlFqoe8n2gXICDiOiLvJ04Ood7G9AnfvsljDYCHDr638IEhNM2sDUSVJ2DQ==",
+  "success": true,
+  "projectFilePath": "C:\\Epicodus\\c-sharp\\HikingTrailClient.Solution\\HikingTrailClient\\HikingTrailClient.Solution.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\katie\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\katie\\.nuget\\packages\\restsharp\\106.6.10\\restsharp.106.6.10.nupkg.sha512"
+  ],
+  "logs": []
+}

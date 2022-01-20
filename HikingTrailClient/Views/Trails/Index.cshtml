@@ -1,0 +1,15 @@
+@using HikingTrailClient.Models;
+
+<h1>All Trails:</h1>
+
+<ol>
+@foreach (Trail trail in Model)
+{
+  <ul>
+    <li>Name: @trail.Name</li>
+    <li>Length: @trail.Length miles</li>
+  </ul>
+  <a href="/Trails/Details/@(trail.TrailId)"><p>View Details</p></a>
+  <br>
+}
+</ol>
